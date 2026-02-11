@@ -68,6 +68,7 @@ namespace C__Ders1
             Console.ReadKey();
 
             #endregion
+                
         }
     }
 }
