@@ -155,7 +155,6 @@ namespace C__Ders2
 
             #endregion
 
-
             Console.ReadKey();
         }
     }
