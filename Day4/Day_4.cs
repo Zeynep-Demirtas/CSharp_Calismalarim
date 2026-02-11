@@ -15,7 +15,7 @@ namespace Day4
             // for(x,y,z)
             //x:Başlangıç
             //y:Bitiş
-            //z:Artış-Azalış
+            //z:Artış-azalış
 
             //for (int i = 1; i <= 5; i++)
             //{
@@ -156,3 +156,4 @@ namespace Day4
         }
     }
 }
+
