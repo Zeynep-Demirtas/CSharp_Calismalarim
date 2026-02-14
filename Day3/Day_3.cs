@@ -13,7 +13,7 @@ namespace Day_3
 
             #region 1 If Else
             {
-
+                {
             Console.Write("Lütfen Şifreyi Giriniz: ");
             string password;
             password = Console.ReadLine();
@@ -26,7 +26,9 @@ namespace Day_3
             {
                 Console.WriteLine("Şifre Yanlış");
             }
+                }
 
+                {
             string capital, country;
 
             Console.Write("Ülkeyi Giriniz: ");
@@ -44,6 +46,9 @@ namespace Day_3
             {
                 Console.Write("hatalı bilgi");
             }
+                }
+
+                {
 
             int number;
 
@@ -59,6 +64,9 @@ namespace Day_3
             {
                 Console.WriteLine("Sayı hatalı");
             }
+                }
+
+                {
 
             int exam1,exam2,exam3,average;
             string result = "Hata!";
@@ -96,6 +104,9 @@ namespace Day_3
             }
 
             Console.WriteLine(result); 
+                }
+
+                {
 
             string city;
 
@@ -111,6 +122,9 @@ namespace Day_3
             {
                 Console.WriteLine("Şehir mecvcut değil");
             }
+                }
+
+                {
 
             Console.Write("Kullanıcı adınızı girin: ");
             string userName=Console.ReadLine();
@@ -124,6 +138,7 @@ namespace Day_3
             {
                 Console.WriteLine("Hoş Geldiniz!");
             }
+                }
 
             }
             #endregion
@@ -131,10 +146,14 @@ namespace Day_3
             #region 2 Mod İşlemleri
             {
 
+                {
             int number;
             number = 26;
             int result = number % 5;
             Console.WriteLine(result);
+                }
+
+                {
 
             Console.Write("1. Sayıyı girin: ");
             int number1 = int.Parse(Console.ReadLine());
@@ -145,6 +164,9 @@ namespace Day_3
             int result = number1 % number2;
 
             Console.WriteLine($"1. Sayının 2. sayıya olan modu: {result}");
+                }
+
+                {
 
             Console.Write("Sayıyı girin: ");
             int number = int.Parse(Console.ReadLine());
@@ -158,13 +180,15 @@ namespace Day_3
             {
                 Console.WriteLine("Girdiğiniz sayı tek");
             }
+                }
 
             }
             #endregion
 
             #region 3 Char Değişkenler İle Karar Verme
             {
-                
+
+                {
             char team;
             Console.Write("İstediğiniz takımı seçin (F/B/G) : ");
             team=char.Parse(Console.ReadLine());
@@ -188,6 +212,7 @@ namespace Day_3
             {
                 Console.WriteLine("Geçersiz giriş!");
             }
+                }
 
             }
             #endregion
@@ -195,6 +220,7 @@ namespace Day_3
             #region 4 Örnek Proje Uygulaması
             {
 
+                {
             Console.WriteLine("****** C# Eğitim Kampı Restoran ******");
             Console.WriteLine();
             Console.WriteLine("1- Ana Yemekler");
@@ -268,6 +294,7 @@ namespace Day_3
                 Console.WriteLine();
                 Console.WriteLine("------------ Tatlılar ------------");
             }
+                }
 
             }
             #endregion
@@ -275,6 +302,7 @@ namespace Day_3
             #region 5 Switch Case
             {
 
+                {
             Console.Write("Lütfen Ay Girişi Yapınız: ");
             int monthNumber = int.Parse(Console.ReadLine());
 
@@ -294,12 +322,14 @@ namespace Day_3
                 case 12: Console.Write("Aralık"); break;
                 default: Console.Write("Hatalı Ay Seçtiniz!");break;
             }
+                }
 
             }
             #endregion
 
             #region 6 Switch Case Hesap Makinesi
             {
+                {
 
             int number1, number2, result;
             char symbol;
@@ -331,6 +361,7 @@ namespace Day_3
                     result = number1 / number2;
                     Console.WriteLine($"Bölüm: {result}");break;
             }
+                }
 
             }
             #endregion
@@ -339,5 +370,6 @@ namespace Day_3
         }
     }
 }
+
 
 
