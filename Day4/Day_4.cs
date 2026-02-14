@@ -12,121 +12,121 @@ namespace Day4
         {
             #region 1 For Döngüsü
 
-            // for(x,y,z)
+             for(x,y,z)
             //x:Başlangıç
             //y:Bitiş
             //z:Artış-azalış
 
-            //for (int i = 1; i <= 5; i++)
-            //{
-            //    Console.WriteLine("C# Eğitim Kampı");
-            //}
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine("C# Eğitim Kampı");
+            }
 
-            //for (int i = 1; i <= 20; i++)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            for (int i = 1; i <= 20; i++)
+            {
+                Console.WriteLine(i);
+            }
 
-            //for (int i = 3; i <= 50; i += 3)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            for (int i = 3; i <= 50; i += 3)
+            {
+                Console.WriteLine(i);
+            }
 
-            //Console.WriteLine("Lütfen ekrana yazdırılmasını istediğiniz adedi girin: ");
-            //int finishValue=int.Parse(Console.ReadLine());
+            Console.WriteLine("Lütfen ekrana yazdırılmasını istediğiniz adedi girin: ");
+            int finishValue=int.Parse(Console.ReadLine());
 
-            //for (int i = 0; i <= finishValue; i++)
-            //{
-            //    Console.WriteLine("Yaşasın Cumhuriyet");
-            //}
+            for (int i = 0; i <= finishValue; i++)
+            {
+                Console.WriteLine("Yaşasın Cumhuriyet");
+            }
 
             #endregion
 
             #region 2 For Döngüsü İle Karar Yapıları
 
-            //for (int i = 1; i <= 100; i++)
-            //{
-            //    if (i % 5 == 0)
-            //    {
-            //        Console.WriteLine(i);
-            //    }
-            //}
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
 
-            //int totalValue = 0;
+            int totalValue = 0;
 
-            //for (int i = 1; i <= 10; i++)
-            //{
-            //    totalValue += i;
-            //}
+            for (int i = 1; i <= 10; i++)
+            {
+                totalValue += i;
+            }
 
-            //Console.WriteLine(totalValue);
+            Console.WriteLine(totalValue);
 
-            //int totalValue = 0;
+            int totalValue = 0;
 
-            //for (int i = 1; i <= 20; i++)
-            //{
-            //    if (i % 2 == 0)
-            //    {
-            //        Console.WriteLine(i);
-            //        totalValue += i;
-            //    }
-            //}
+            for (int i = 1; i <= 20; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                    totalValue += i;
+                }
+            }
 
-            //Console.WriteLine("------");
-            //Console.WriteLine(totalValue);
+            Console.WriteLine("------");
+            Console.WriteLine(totalValue);
 
-            //int count = 0;
+            int count = 0;
 
-            //for (int i = 1; i <= 50; i++)
-            //{
-            //    if (i % 7 == 0)
-            //    {
-            //        count++;
-            //        Console.WriteLine(i);
-            //    }
-            //}
-            //Console.WriteLine();
-            //Console.WriteLine(count + " adet");
+            for (int i = 1; i <= 50; i++)
+            {
+                if (i % 7 == 0)
+                {
+                    count++;
+                    Console.WriteLine(i);
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine(count + " adet");
 
-            //int bacterium = 1;
+            int bacterium = 1;
 
-            //for(int i = 1; i <= 24; i++)
-            //{
-            //    bacterium *= 2;
-            //    Console.WriteLine(i + $". Saat Sonunda: {bacterium}");
-            //}
+            for(int i = 1; i <= 24; i++)
+            {
+                bacterium *= 2;
+                Console.WriteLine(i + $". Saat Sonunda: {bacterium}");
+            }
 
             #endregion
 
             #region 3 While Döngüsü
 
-            //int i = 1;
-            //while (i <= 10)
-            //{
-            //    Console.WriteLine("Merhaba Döngüler");
-            //    i++;
-            //}
+            int i = 1;
+            while (i <= 10)
+            {
+                Console.WriteLine("Merhaba Döngüler");
+                i++;
+            }
 
-            //int i = 1;
-            //while (i<=20)
-            //{
-            //    if (i % 3 == 0)
-            //    {
-            //        Console.WriteLine(i);
-            //    }
-            //    i++;
-            //}
+            int i = 1;
+            while (i<=20)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+                i++;
+            }
 
-            //int i = 1;
-            //int sum = 0;
+            int i = 1;
+            int sum = 0;
 
-            //while (i <= 10)
-            //{
-            //    sum += i;
-            //    i++;
-            //}
+            while (i <= 10)
+            {
+                sum += i;
+                i++;
+            }
 
-            //Console.WriteLine(sum);
+            Console.WriteLine(sum);
 
             #endregion
 
@@ -136,19 +136,19 @@ namespace Day4
             //toplamını hesaplayan kodu yazınız.
             //456
 
-            //Console.WriteLine("3 basamaklı bir sayı giriniz: ");
-            //int number=int.Parse(Console.ReadLine());
-            //int ones, tens, hundreds;
-            //int sum;
+            Console.WriteLine("3 basamaklı bir sayı giriniz: ");
+            int number=int.Parse(Console.ReadLine());
+            int ones, tens, hundreds;
+            int sum;
 
-            //ones = number % 10;
-            //hundreds = number / 100; //4.56-->4
-            //tens = (number % 100) / 10; //56/10-->5
+            ones = number % 10;
+            hundreds = number / 100; //4.56-->4
+            tens = (number % 100) / 10; //56/10-->5
 
-            //Console.WriteLine(hundreds + "-" + tens + "-" + ones);
+            Console.WriteLine(hundreds + "-" + tens + "-" + ones);
 
-            //sum = ones + tens + hundreds;
-            //Console.WriteLine(sum);
+            sum = ones + tens + hundreds;
+            Console.WriteLine(sum);
 
             #endregion
 
@@ -156,4 +156,5 @@ namespace Day4
         }
     }
 }
+
 
