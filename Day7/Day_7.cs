@@ -11,6 +11,7 @@ namespace Day7
         static void Main(string[] args)
         {
             #region Foreach döngüsü
+            {
 
             //1: Değişken türü
             //2: Değişken adı
@@ -69,9 +70,11 @@ namespace Day7
                 Console.WriteLine(c);
             }
 
+            }
             #endregion
 
-            #region Örnek sınav sistemi uygulaması
+            #region 2 Örnek sınav sistemi uygulaması
+            {
 
             Console.Write("***** C#Eğitim Kampı Sınav Uygulaması *****");
             Console.WriteLine();
@@ -123,10 +126,12 @@ namespace Day7
                 Console.WriteLine("---------------------------------");
             }
 
+            }
             #endregion
 
             Console.ReadKey();
         }
     }
 }
+
 
