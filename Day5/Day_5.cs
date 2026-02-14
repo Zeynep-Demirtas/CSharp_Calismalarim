@@ -11,24 +11,29 @@ namespace Day5
         static void Main(string[] args)
         {
             #region 1 Alt alta 10 tane yıldız oluşturma
+            {
 
             for (int i = 0; i <= 10; i++)
             {
                 Console.WriteLine("*");
             }
 
+            }
             #endregion
 
             #region 2 Yan yana 10 tane yıldız oluşturma
+            {
 
             for (int i = 0; i <= 10; i++)
             {
                 Console.Write("*");
             }
 
+            }
             #endregion
 
             #region 3 Alt alta 10 yıldız oluşturma her satırda 10 tane yıldız olsun
+            {
 
             for (int i = 0; i <= 10; i++)
             {
@@ -39,9 +44,11 @@ namespace Day5
                 Console.WriteLine("*");
             }
 
+            }
             #endregion
 
             #region 4 Dik üçgen
+            {
 
              for(int i = 1; i <= 5; i++)
             {
@@ -52,9 +59,11 @@ namespace Day5
                 Console.WriteLine();
             }
 
+            }
             #endregion
 
             #region 5 Ters dik üçgen
+            {
 
             for (int i = 5; i >= 1; i--)
             {
@@ -65,9 +74,11 @@ namespace Day5
                 Console.WriteLine();
             }
 
+            }
             #endregion
 
             #region 6 Yarım elmas şekli
+            {
 
             for (int i = 1; i <= 5; i++)
             {
@@ -87,9 +98,11 @@ namespace Day5
                 Console.WriteLine();
             }
 
+            }
             #endregion
 
             #region 7 Baklava dilimi
+            {
 
             //üst kısım
             int n = 5;
@@ -125,9 +138,11 @@ namespace Day5
                 Console.WriteLine();
             }
 
+            }
             #endregion
 
             #region 8 Piramit
+            {
 
             int n = 5;
 
@@ -148,9 +163,11 @@ namespace Day5
                 Console.WriteLine(); // Satır bittiğinde alta geç
             }
 
+            }
             #endregion
 
             #region 9 Ters piramit
+            {
 
             int n = 5;
 
@@ -170,10 +187,12 @@ namespace Day5
                 Console.WriteLine();
             }
 
+            }
             #endregion
 
             Console.ReadKey();
         }
     }
 }
+
 
