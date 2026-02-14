@@ -12,6 +12,7 @@ namespace Day6
         {
             #region 1 Temel dizi örnekleri
             {
+                {
 
             //DeğişkenTürü [] DiziAdı = new DeğişkenTürü [ElemanSayısı]
 
@@ -23,6 +24,9 @@ namespace Day6
             colors[3] = "Mavi";
 
             Console.WriteLine(colors[2]);
+                }
+
+                {
 
             string[] cities = new string[5];
 
@@ -33,6 +37,9 @@ namespace Day6
             cities[4] = "Üsküp";
 
             Console.WriteLine(cities[4]); //5. index yok o yüzden hata verir 5 yazılırsa
+                }
+
+                {
 
             int[] numbers = new int[10];
 
@@ -43,16 +50,21 @@ namespace Day6
             numbers[7] = 748;
 
             Console.WriteLine(numbers[5]); //Değeri girilmeyen indexlerin değeri 0 kabul edilir
+                }
+
+                {
 
             string[] cities = { "Prag", "Roma", "Atina", "Ankara", "Bursa" };
 
             Console.WriteLine(cities[2]);
+                }
 
             }
             #endregion
 
             #region 2 Dizideki tüm elemanları listeleme
             {
+                {
 
             string[] colors = { "Sarı", "Kırmızı", "Beyaz", "Mavi", "Yeşil", "Turuncu", "Pembe" };
 
@@ -60,6 +72,9 @@ namespace Day6
             {
                 Console.WriteLine(colors[i]);
             }
+                }
+
+                {
 
             int[] numbers = { 4, 85, 96, 75, 125, 635, 488, 522, 7456, 2365, 1120 };
 
@@ -70,6 +85,9 @@ namespace Day6
                     Console.WriteLine(numbers[i]);
                 }
             }
+                }
+
+                {
 
             char[] symbols = { 'a', 'b', 'c', '*', '/', '-' };
 
@@ -77,6 +95,9 @@ namespace Day6
             {
                 Console.WriteLine(symbols[i]);
             }
+                }
+
+                {
 
             int[] myArray = { 47, 85, 95, 41, 25, 635, 789, 86, 100 };
 
@@ -90,10 +111,16 @@ namespace Day6
                 }
             }
             Console.WriteLine(maxNumber);
+                }
+
+                {
 
             string[] persons = { "Ali", "Ahmet", "Ayşe", "Buse", "Cem", "Deniz" };
 
             Console.WriteLine(persons.Length); //Dizideki karakter sayısını verir
+                }
+
+                {
 
             int[] numbers = { 45, 85, 52, 41, 86, 10, 22, 35 };
             Array.Sort(numbers); //Dizideki karakterleri büyükten küçüğe sıralar
@@ -101,6 +128,9 @@ namespace Day6
             {
                 Console.WriteLine(numbers[i]);
             }
+                }
+
+                {
 
             int[] numbers = { 45, 85, 52, 41, 86, 10, 22, 35 };
             Array.Reverse(numbers); //Dizideki karakterleri tersine sırasıyla yazar
@@ -108,25 +138,32 @@ namespace Day6
             {
                 Console.WriteLine(numbers[i]);
             }
+                }
 
             }
             #endregion
 
             #region 3 Dizi metotları
             {
+                {
 
             string[] customers = { "Ali", "Buse", "Ayşegül", "Merve", "Çınar", "Kaya" };
             int index = Array.IndexOf(customers, "Merve"); //Belirtilen elemanın kaçıncı indexte olduğunu verir
             Console.WriteLine(index);
+                }
+
+                {
 
             int[] numbers = { 45, 85, 96, 63, 74, 10, 25, 22, 36 };
             Console.WriteLine("Dizinin En Büyük Elemanı: " + numbers.Max() + "  " + "Dizinin En Küçük Elemanı: " + numbers.Min());
+                }
 
             }
             #endregion
 
             #region 4 Kullanıcıdan değer alma
             {
+                {
 
             string[] cities = new string[5];
 
@@ -144,6 +181,9 @@ namespace Day6
             {
                 Console.WriteLine(cities[i]);
             } 
+                }
+
+                {
 
             int[] numbers = { 10, 20, 30, 40, 50 };
             int sum = 0;
@@ -154,6 +194,9 @@ namespace Day6
             }
 
             Console.WriteLine(sum);
+                }
+
+                {
 
             int[] numbers = { 21, 42, 33, 54, 66, 897, 748, 39, 220 };
 
@@ -181,6 +224,7 @@ namespace Day6
                     Console.WriteLine(numbers[i]);
                 }
             }
+                }
 
             }
             #endregion
@@ -189,5 +233,6 @@ namespace Day6
         }
     }
 }
+
 
 
