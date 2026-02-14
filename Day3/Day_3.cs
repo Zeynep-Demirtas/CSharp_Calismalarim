@@ -12,6 +12,7 @@ namespace Day_3
         {
 
             #region 1 If Else
+            {
 
             Console.Write("Lütfen Şifreyi Giriniz: ");
             string password;
@@ -124,9 +125,11 @@ namespace Day_3
                 Console.WriteLine("Hoş Geldiniz!");
             }
 
+            }
             #endregion
 
             #region 2 Mod İşlemleri
+            {
 
             int number;
             number = 26;
@@ -155,9 +158,13 @@ namespace Day_3
             {
                 Console.WriteLine("Girdiğiniz sayı tek");
             }
+
+            }
             #endregion
 
             #region 3 Char Değişkenler İle Karar Verme
+            {
+                
             char team;
             Console.Write("İstediğiniz takımı seçin (F/B/G) : ");
             team=char.Parse(Console.ReadLine());
@@ -182,9 +189,11 @@ namespace Day_3
                 Console.WriteLine("Geçersiz giriş!");
             }
 
+            }
             #endregion
 
             #region 4 Örnek Proje Uygulaması
+            {
 
             Console.WriteLine("****** C# Eğitim Kampı Restoran ******");
             Console.WriteLine();
@@ -260,9 +269,11 @@ namespace Day_3
                 Console.WriteLine("------------ Tatlılar ------------");
             }
 
+            }
             #endregion
 
             #region 5 Switch Case
+            {
 
             Console.Write("Lütfen Ay Girişi Yapınız: ");
             int monthNumber = int.Parse(Console.ReadLine());
@@ -284,9 +295,11 @@ namespace Day_3
                 default: Console.Write("Hatalı Ay Seçtiniz!");break;
             }
 
+            }
             #endregion
 
             #region 6 Switch Case Hesap Makinesi
+            {
 
             int number1, number2, result;
             char symbol;
@@ -319,11 +332,12 @@ namespace Day_3
                     Console.WriteLine($"Bölüm: {result}");break;
             }
 
-
+            }
             #endregion
 
             Console.ReadKey();
         }
     }
 }
+
 
