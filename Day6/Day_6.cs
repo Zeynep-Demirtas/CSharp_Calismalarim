@@ -11,6 +11,7 @@ namespace Day6
         static void Main(string[] args)
         {
             #region 1 Temel dizi örnekleri
+            {
 
             //DeğişkenTürü [] DiziAdı = new DeğişkenTürü [ElemanSayısı]
 
@@ -47,9 +48,11 @@ namespace Day6
 
             Console.WriteLine(cities[2]);
 
+            }
             #endregion
 
             #region 2 Dizideki tüm elemanları listeleme
+            {
 
             string[] colors = { "Sarı", "Kırmızı", "Beyaz", "Mavi", "Yeşil", "Turuncu", "Pembe" };
 
@@ -106,9 +109,11 @@ namespace Day6
                 Console.WriteLine(numbers[i]);
             }
 
+            }
             #endregion
 
             #region 3 Dizi metotları
+            {
 
             string[] customers = { "Ali", "Buse", "Ayşegül", "Merve", "Çınar", "Kaya" };
             int index = Array.IndexOf(customers, "Merve"); //Belirtilen elemanın kaçıncı indexte olduğunu verir
@@ -117,9 +122,11 @@ namespace Day6
             int[] numbers = { 45, 85, 96, 63, 74, 10, 25, 22, 36 };
             Console.WriteLine("Dizinin En Büyük Elemanı: " + numbers.Max() + "  " + "Dizinin En Küçük Elemanı: " + numbers.Min());
 
+            }
             #endregion
 
             #region 4 Kullanıcıdan değer alma
+            {
 
             string[] cities = new string[5];
 
@@ -175,10 +182,12 @@ namespace Day6
                 }
             }
 
+            }
             #endregion
 
             Console.ReadKey();
         }
     }
 }
+
 
