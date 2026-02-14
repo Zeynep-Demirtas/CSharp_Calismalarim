@@ -12,8 +12,9 @@ namespace Day4
         {
             #region 1 For Döngüsü
             {
+                {
 
-             for(x,y,z)
+             //for(x,y,z)
             //x:Başlangıç
             //y:Bitiş
             //z:Artış-azalış
@@ -22,16 +23,25 @@ namespace Day4
             {
                 Console.WriteLine("C# Eğitim Kampı");
             }
+                }
+
+                {
 
             for (int i = 1; i <= 20; i++)
             {
                 Console.WriteLine(i);
             }
+                }
+
+                {
 
             for (int i = 3; i <= 50; i += 3)
             {
                 Console.WriteLine(i);
             }
+                }
+
+                {
 
             Console.WriteLine("Lütfen ekrana yazdırılmasını istediğiniz adedi girin: ");
             int finishValue=int.Parse(Console.ReadLine());
@@ -40,12 +50,14 @@ namespace Day4
             {
                 Console.WriteLine("Yaşasın Cumhuriyet");
             }
+                }
 
             }
             #endregion
 
             #region 2 For Döngüsü İle Karar Yapıları
             {
+                {
 
             for (int i = 1; i <= 100; i++)
             {
@@ -54,6 +66,9 @@ namespace Day4
                     Console.WriteLine(i);
                 }
             }
+                }
+
+                {
 
             int totalValue = 0;
 
@@ -63,6 +78,9 @@ namespace Day4
             }
 
             Console.WriteLine(totalValue);
+                }
+
+                {
 
             int totalValue = 0;
 
@@ -77,6 +95,9 @@ namespace Day4
 
             Console.WriteLine("------");
             Console.WriteLine(totalValue);
+                }
+
+                {
 
             int count = 0;
 
@@ -90,6 +111,9 @@ namespace Day4
             }
             Console.WriteLine();
             Console.WriteLine(count + " adet");
+                }
+
+                {
 
             int bacterium = 1;
 
@@ -98,12 +122,14 @@ namespace Day4
                 bacterium *= 2;
                 Console.WriteLine(i + $". Saat Sonunda: {bacterium}");
             }
+                }
 
             }
             #endregion
 
             #region 3 While Döngüsü
             {
+                {
 
             int i = 1;
             while (i <= 10)
@@ -111,6 +137,9 @@ namespace Day4
                 Console.WriteLine("Merhaba Döngüler");
                 i++;
             }
+                }
+
+                {
 
             int i = 1;
             while (i<=20)
@@ -121,6 +150,9 @@ namespace Day4
                 }
                 i++;
             }
+                }
+
+                {
 
             int i = 1;
             int sum = 0;
@@ -132,12 +164,14 @@ namespace Day4
             }
 
             Console.WriteLine(sum);
+                }
 
             }
             #endregion
 
             #region 4 Örnek Sınav Sorusu
             {
+                {
 
             //Klavyeden girilen 3 basamaklı bir sayının basamakları
             //toplamını hesaplayan kodu yazınız.
@@ -156,6 +190,7 @@ namespace Day4
 
             sum = ones + tens + hundreds;
             Console.WriteLine(sum);
+                }
 
             }
             #endregion
@@ -164,6 +199,7 @@ namespace Day4
         }
     }
 }
+
 
 
 
