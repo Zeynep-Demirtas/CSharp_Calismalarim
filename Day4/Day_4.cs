@@ -11,6 +11,7 @@ namespace Day4
         static void Main(string[] args)
         {
             #region 1 For Döngüsü
+            {
 
              for(x,y,z)
             //x:Başlangıç
@@ -40,9 +41,11 @@ namespace Day4
                 Console.WriteLine("Yaşasın Cumhuriyet");
             }
 
+            }
             #endregion
 
             #region 2 For Döngüsü İle Karar Yapıları
+            {
 
             for (int i = 1; i <= 100; i++)
             {
@@ -96,9 +99,11 @@ namespace Day4
                 Console.WriteLine(i + $". Saat Sonunda: {bacterium}");
             }
 
+            }
             #endregion
 
             #region 3 While Döngüsü
+            {
 
             int i = 1;
             while (i <= 10)
@@ -128,9 +133,11 @@ namespace Day4
 
             Console.WriteLine(sum);
 
+            }
             #endregion
 
             #region 4 Örnek Sınav Sorusu
+            {
 
             //Klavyeden girilen 3 basamaklı bir sayının basamakları
             //toplamını hesaplayan kodu yazınız.
@@ -150,11 +157,13 @@ namespace Day4
             sum = ones + tens + hundreds;
             Console.WriteLine(sum);
 
+            }
             #endregion
 
             Console.ReadKey();
         }
     }
 }
+
 
 
