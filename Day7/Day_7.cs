@@ -12,6 +12,7 @@ namespace Day7
         {
             #region Foreach döngüsü
             {
+                {
 
             //1: Değişken türü
             //2: Değişken adı
@@ -24,6 +25,9 @@ namespace Day7
             {
                 Console.WriteLine(x);
             }
+                }
+
+                {
 
             int[] numbers = { 45, 78, 985, 635, 74, 11, 22, 33, 41, 2 * 5, 6578, 10394 };
 
@@ -31,6 +35,9 @@ namespace Day7
             {
                 Console.WriteLine(number);
             }
+                }
+
+                {
 
             int[] numbers = { 45, 78, 985, 635, 74, 11, 22, 33, 41, 2 * 5, 6578, 10394 };
 
@@ -41,6 +48,9 @@ namespace Day7
                     Console.WriteLine(number);
                 }
             }
+                }
+
+                {
 
             int[] numbers = { 45, 78, 985, 635, 74, 11, 22, 33, 41, 2 * 5, 6578, 10394 };
 
@@ -52,6 +62,9 @@ namespace Day7
             }
 
             Console.WriteLine(total);
+                }
+
+                {
 
             List<int> numbers = new List<int>()
             {
@@ -62,6 +75,9 @@ namespace Day7
             {
                 Console.WriteLine(number);
             } //Foreach döngüsü sadece diziler için değil listeleri yazdırmak için de kullanılır
+                }
+
+                {
 
             string word = "Merhaba";
 
@@ -69,6 +85,7 @@ namespace Day7
             {
                 Console.WriteLine(c);
             }
+                }
 
             }
             #endregion
