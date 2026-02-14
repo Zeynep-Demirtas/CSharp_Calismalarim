@@ -11,6 +11,7 @@ namespace C__Ders2
         static void Main(string[] args)
         {
             #region 1 Double Değişkenler
+            {
 
             Console.WriteLine("***** Fiayt Listesi *****");
             Console.WriteLine();
@@ -66,10 +67,11 @@ namespace C__Ders2
 
             Console.WriteLine($"Alışveriş Toplam Tutar: {shoppingTotalPrice}");
 
-
+            }
             #endregion
 
             #region 2 Klavyeden Veri Girişleri
+            {
 
             Console.WriteLine("**** C# Hava Yolları Yolcu Bilgisic ****");
             Console.WriteLine();
@@ -102,9 +104,11 @@ namespace C__Ders2
 
             Console.WriteLine($"Yolcu TC Kimlik No: {passengerIdentityNumber} - Yolcu Ad Soyad: {passengerName} {passengerSurname} {passengerDistrict} / {passengerCity} {passengerAge}");
 
+            }
             #endregion
 
             #region 3 Dönüşümler
+            {
 
             int shoesPrice, computerPrice, chairPrice, tvPrice;
 
@@ -133,9 +137,11 @@ namespace C__Ders2
             Console.WriteLine();
             Console.WriteLine($"Toplam Ödemeniz Gereken Tutar: {totalPrice}");
 
+            } 
             #endregion
 
             #region 4 Klavyeden Ondalıklı Sayı İşlemleri
+            {
 
             double exam1, exam2, exam3, result;
 
@@ -153,6 +159,7 @@ namespace C__Ders2
             Console.WriteLine();
             Console.WriteLine($"Sınav Ortalamanız: {result}");
 
+            }
             #endregion
 
             Console.ReadKey();
