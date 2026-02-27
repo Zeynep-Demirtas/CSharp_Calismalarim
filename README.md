@@ -1,4 +1,4 @@
-**Bu repo, Murat Yücedağ'ın *C# Eğitim Kampı* kapsamında yaptığım çalışmaları içermektedir.**
+***Bu repo, Murat Yücedağ'ın *C# Eğitim Kampı* kapsamında yaptığım çalışmaları içermektedir.***
 
 C# Eğitim Kampı Ders 1 - Giriş, Yazdırma Komutları, String ve Int Değişkenler  
 C# Eğitim Kampı Ders 2 - String, Int, Double, Char Değişkenler, Klavye Veri Grişleri, Dönüşümler  
